@@ -173,4 +173,7 @@
 -resource:"C:\Users\WM100002\Documents\Visual Studio 2015\Projects\amis3610\FisherInsuranceApi\src\FisherInsuranceApi\obj\Debug\netcoreapp1.0\FisherInsuranceApidotnet-compile.deps.json",FisherInsuranceApi.deps.json
 "C:\Users\WM100002\Documents\Visual Studio 2015\Projects\amis3610\FisherInsuranceApi\src\FisherInsuranceApi\Program.cs"
 "C:\Users\WM100002\Documents\Visual Studio 2015\Projects\amis3610\FisherInsuranceApi\src\FisherInsuranceApi\Startup.cs"
-"C:\Users\WM100002\Documents\Visual Studio 2015\Projects\amis3610\FisherInsuranceApi\src\FisherInsuranceApi\Controllers\ValuesController.cs"
+"C:\Users\WM100002\Documents\Visual Studio 2015\Projects\amis3610\FisherInsuranceApi\src\FisherInsuranceApi\Controllers\AutoController.cs"
+"C:\Users\WM100002\Documents\Visual Studio 2015\Projects\amis3610\FisherInsuranceApi\src\FisherInsuranceApi\Controllers\ClaimsController.cs"
+"C:\Users\WM100002\Documents\Visual Studio 2015\Projects\amis3610\FisherInsuranceApi\src\FisherInsuranceApi\Controllers\HouseController.cs"
+"C:\Users\WM100002\Documents\Visual Studio 2015\Projects\amis3610\FisherInsuranceApi\src\FisherInsuranceApi\Controllers\LifeController.cs"
