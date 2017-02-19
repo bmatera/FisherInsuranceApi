@@ -6,7 +6,6 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Builder;
 using FisherInsuranceApi.Data;
-using Microsoft.Extensions.DependencyInjection;
 
 namespace FisherInsuranceApi
 {
