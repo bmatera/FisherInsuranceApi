@@ -42,11 +42,12 @@ namespace FisherInsuranceApi.Data
         // Inserts the quote record into quotes data structure. First determine the Id value, then insert quote record.
         public Quote CreateQuote(Quote quote)
         {
+            // If quote is inserted w/o providing id then id will be 0 and next id must be determined. If id is specified then that id will be used.
             if (quote.Id == 0)
             {
                 int key = quotes.Count;
 
-                while (quotes.ContainsKey(key))  //loop to increment key to insert at end 
+                while (quotes.ContainsKey(key))  //loop to increment key to insert at end of list
                 {
                     key++;
                 };

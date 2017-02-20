@@ -20,8 +20,14 @@ namespace FisherInsuranceApi
                 .UseIISIntegration()
                 .UseStartup<Startup>()
                 .Build();
-            
+
             host.Run();
+        }
+
+        public void ConfigureServices(IServiceCollection services)
+        {
+            services.AddSingleton<IMemoryStore, MemoryStore>();
+            services.AddMvc();
         }
     }
 }
