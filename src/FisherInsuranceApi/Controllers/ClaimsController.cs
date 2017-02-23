@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using FisherInsuranceApi.Data;
+using FisherInsuranceApi.Models;
 
 // For more information on enabling Web API for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -12,39 +14,46 @@ namespace FisherInsuranceApi.Controllers
     [Route("api/claims")]
     public class ClaimsController : Controller
     {
+        private IMemoryStore db;
+        public ClaimsController(IMemoryStore repo)
+        {
+            db = repo;
+        }
+
         // GET: api/claims
         [HttpGet]
-        public IEnumerable<string> Get()
+        public IActionResult GetClaims()
         {
-            return new string[] { "value1", "value2" };
+            return Ok(db.RetrieveAllClaims);
         }
 
         // GET api/claims/5
         [HttpGet("{id}")]
         public IActionResult Get(int id)
         {
-            return Ok("The id is: " + id);
+            return Ok(db.RetrieveClaim(id));
         }
 
         // POST api/claims
         [HttpPost]
-        public IActionResult Post([FromBody]string value)
+        public IActionResult Post([FromBody]Claim claim)
         {
-            return Created("", value);
+            return Ok(db.CreateClaim(claim));
         }
 
         // PUT api/claims/id
         [HttpPut("{id}")]
-        public IActionResult Put(int id, [FromBody]string value)
+        public IActionResult Put([FromBody] Claim claim)
         {
-            return NoContent();
+            return Ok(db.UpdateClaim(claim));
         }
 
         // DELETE api/claims/id
         [HttpDelete("{id}")]
         public IActionResult Delete(int id)
         {
-            return Delete(id);
+            db.DeleteClaim(id);
+            return Ok();
         }
     }
 }

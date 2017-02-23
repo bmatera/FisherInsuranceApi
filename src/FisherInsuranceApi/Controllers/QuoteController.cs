@@ -11,29 +11,22 @@ using FisherInsuranceApi.Models;
 namespace FisherInsuranceApi.Controllers
 {
     //[Route("api/[controller]")]
-    [Route("api/auto/quotes")]
-    public class AutoController : Controller
+    [Route("api/quotes")]
+    public class QuoteController : Controller
     {
         private IMemoryStore db;
-        public AutoController(IMemoryStore repo)
+        public QuoteController(IMemoryStore repo)
         {
             db = repo;
         }
 
         //Lab 4, exercise 1
-        // GET: api/auto/quotes
+        // GET: api/quotes
         [HttpGet]
         public IActionResult GetQuotes()
         {
             return Ok(db.RetrieveAllQuotes);
         }
-
-        // GET: api/auto/quotes  (all quotes)
-        //[HttpGet]
-        //public IEnumerable<string> Get()
-        //{
-        //    return new string[] { "value1", "value2" };
-        //}
 
         // GET api/auto/quotes/5  (get single quote by id)
         [HttpGet("{id}")]
