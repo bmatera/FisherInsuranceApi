@@ -12,6 +12,7 @@ var http_1 = require("@angular/http");
 require("rxjs/Rx");
 //import our application component
 var app_component_1 = require("./app.component");
+var home_component_1 = require("./components/home/home.component");
 var AppModule = (function () {
     function AppModule() {
     }
@@ -20,7 +21,8 @@ var AppModule = (function () {
 AppModule = __decorate([
     core_1.NgModule({
         declarations: [
-            app_component_1.AppComponent
+            app_component_1.AppComponent,
+            home_component_1.HomeComponent
         ],
         imports: [
             platform_browser_1.BrowserModule,

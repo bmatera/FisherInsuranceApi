@@ -2,6 +2,7 @@
 
 @Component({
     selector: "fisher-insurance",
-    template: `<h1>Hello Fisher Insurance, This works<h1>`
+    template: `<home-page>`
+
 })
 export class AppComponent { }

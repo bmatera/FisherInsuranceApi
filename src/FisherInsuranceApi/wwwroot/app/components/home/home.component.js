@@ -7,15 +7,15 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = require("@angular/core");
-var AppComponent = (function () {
-    function AppComponent() {
+var HomeComponent = (function () {
+    function HomeComponent() {
     }
-    return AppComponent;
+    return HomeComponent;
 }());
-AppComponent = __decorate([
+HomeComponent = __decorate([
     core_1.Component({
-        selector: "fisher-insurance",
-        template: "<home-page>"
+        selector: 'home-page',
+        templateUrl: './app/components/home/home.component.html'
     })
-], AppComponent);
-exports.AppComponent = AppComponent;
+], HomeComponent);
+exports.HomeComponent = HomeComponent;
