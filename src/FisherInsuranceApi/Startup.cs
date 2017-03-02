@@ -36,7 +36,7 @@ namespace FisherInsuranceApi
         public void ConfigureServices(IServiceCollection services)
         {
             // Add framework services.
-            services.AddApplicationInsightsTelemetry(Configuration);
+            //services.AddApplicationInsightsTelemetry(Configuration);
             services.AddSingleton<IMemoryStore, MemoryStore>();
             services.AddMvc();
         }

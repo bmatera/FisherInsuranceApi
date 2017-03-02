@@ -13,6 +13,7 @@ require("rxjs/Rx");
 //import our application component
 var app_component_1 = require("./app.component");
 var home_component_1 = require("./components/home/home.component");
+var navbar_component_1 = require("./components/navbar/navbar.component");
 var AppModule = (function () {
     function AppModule() {
     }
@@ -22,7 +23,8 @@ AppModule = __decorate([
     core_1.NgModule({
         declarations: [
             app_component_1.AppComponent,
-            home_component_1.HomeComponent
+            home_component_1.HomeComponent,
+            navbar_component_1.NavBarComponent
         ],
         imports: [
             platform_browser_1.BrowserModule,

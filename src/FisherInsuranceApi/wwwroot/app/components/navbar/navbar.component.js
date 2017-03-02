@@ -7,15 +7,16 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = require("@angular/core");
-var AppComponent = (function () {
-    function AppComponent() {
+var NavBarComponent = (function () {
+    function NavBarComponent() {
     }
-    return AppComponent;
+    return NavBarComponent;
 }());
-AppComponent = __decorate([
+NavBarComponent = __decorate([
     core_1.Component({
-        selector: "fisher-insurance",
-        templateUrl: './app/app.component.html'
+        selector: 'nav-bar',
+        templateUrl: './app/components/navbar/navbar.component.html',
+        styleUrls: ['./app/components/navbar/navbar.component.css']
     })
-], AppComponent);
-exports.AppComponent = AppComponent;
+], NavBarComponent);
+exports.NavBarComponent = NavBarComponent;
