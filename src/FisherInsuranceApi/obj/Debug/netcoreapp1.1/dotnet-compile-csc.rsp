@@ -190,6 +190,8 @@
 "C:\Users\WM100002\Documents\Visual Studio 2015\Projects\amis3610\FisherInsuranceApi\src\FisherInsuranceApi\Data\FisherContext.cs"
 "C:\Users\WM100002\Documents\Visual Studio 2015\Projects\amis3610\FisherInsuranceApi\src\FisherInsuranceApi\Migrations\20170305205119_init.cs"
 "C:\Users\WM100002\Documents\Visual Studio 2015\Projects\amis3610\FisherInsuranceApi\src\FisherInsuranceApi\Migrations\20170305205119_init.Designer.cs"
+"C:\Users\WM100002\Documents\Visual Studio 2015\Projects\amis3610\FisherInsuranceApi\src\FisherInsuranceApi\Migrations\20170307023546_update-quotes.cs"
+"C:\Users\WM100002\Documents\Visual Studio 2015\Projects\amis3610\FisherInsuranceApi\src\FisherInsuranceApi\Migrations\20170307023546_update-quotes.Designer.cs"
 "C:\Users\WM100002\Documents\Visual Studio 2015\Projects\amis3610\FisherInsuranceApi\src\FisherInsuranceApi\Migrations\FisherContextModelSnapshot.cs"
 "C:\Users\WM100002\Documents\Visual Studio 2015\Projects\amis3610\FisherInsuranceApi\src\FisherInsuranceApi\Models\Claim.cs"
 "C:\Users\WM100002\Documents\Visual Studio 2015\Projects\amis3610\FisherInsuranceApi\src\FisherInsuranceApi\Models\Quote.cs"
