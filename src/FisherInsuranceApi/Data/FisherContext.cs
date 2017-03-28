@@ -1,9 +1,12 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using FisherInsuranceApi.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace FisherInsuranceApi.Data
 {
-    public class FisherContext : DbContext
+    public class FisherContext : IdentityDbContext<ApplicationUser>
+
+    //public class FisherContext : DbContext
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

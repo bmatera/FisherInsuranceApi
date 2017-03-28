@@ -51,16 +51,27 @@ namespace FisherInsuranceApi.Controllers
         [HttpPut("{id}")]
         public IActionResult Put(int id, [FromBody]Quote quote)
         {
+            db.Entry(quote).State = EntityState.Modified;  //required for entity framework. Let's it know record is being modified.
             var newQuote = db.Quotes.Find(id);
             if (newQuote == null)
             {
                 return NotFound();
             }
-            newQuote = quote;
-            db.Quotes.Update(newQuote);
-            db.SaveChanges();
 
-            return Ok(newQuote);
+            //if error in quote update, catch & report it. 
+            try
+            {
+                newQuote = quote;
+                db.SaveChanges();
+                return Ok(newQuote);
+            }
+            catch (Exception e)
+            {
+                //Console.WriteLine("An error occurred: '{0}'", e);
+                var errorMessage = ("Insert claim error, System response: " + e);
+                return BadRequest(errorMessage);
+            }
+            
         }
 
         // DELETE api/quotes/id

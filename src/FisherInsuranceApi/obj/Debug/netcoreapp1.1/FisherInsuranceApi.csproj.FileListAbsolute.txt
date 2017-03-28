@@ -1,0 +1,17 @@
+C:\Users\WM100002\Documents\Visual Studio 2017\Projects\FisherInsuranceApi\src\FisherInsuranceApi\bin\Debug\netcoreapp1.1\FisherInsuranceApi.deps.json
+C:\Users\WM100002\Documents\Visual Studio 2017\Projects\FisherInsuranceApi\src\FisherInsuranceApi\bin\Debug\netcoreapp1.1\FisherInsuranceApi.runtimeconfig.json
+C:\Users\WM100002\Documents\Visual Studio 2017\Projects\FisherInsuranceApi\src\FisherInsuranceApi\bin\Debug\netcoreapp1.1\FisherInsuranceApi.runtimeconfig.dev.json
+C:\Users\WM100002\Documents\Visual Studio 2017\Projects\FisherInsuranceApi\src\FisherInsuranceApi\bin\Debug\netcoreapp1.1\FisherInsuranceApi.dll
+C:\Users\WM100002\Documents\Visual Studio 2017\Projects\FisherInsuranceApi\src\FisherInsuranceApi\bin\Debug\netcoreapp1.1\FisherInsuranceApi.pdb
+C:\Users\WM100002\Documents\Visual Studio 2017\Projects\FisherInsuranceApi\src\FisherInsuranceApi\obj\Debug\netcoreapp1.1\FisherInsuranceApi.AssemblyInfo.cs
+C:\Users\WM100002\Documents\Visual Studio 2017\Projects\FisherInsuranceApi\src\FisherInsuranceApi\obj\Debug\netcoreapp1.1\FisherInsuranceApi.dll
+C:\Users\WM100002\Documents\Visual Studio 2017\Projects\FisherInsuranceApi\src\FisherInsuranceApi\obj\Debug\netcoreapp1.1\FisherInsuranceApi.pdb
+C:\Users\WM100002\Documents\Visual Studio 2017\Projects\FisherInsuranceApiVS2017\src\FisherInsuranceApi\bin\Debug\netcoreapp1.1\FisherInsuranceApi.deps.json
+C:\Users\WM100002\Documents\Visual Studio 2017\Projects\FisherInsuranceApiVS2017\src\FisherInsuranceApi\bin\Debug\netcoreapp1.1\FisherInsuranceApi.runtimeconfig.json
+C:\Users\WM100002\Documents\Visual Studio 2017\Projects\FisherInsuranceApiVS2017\src\FisherInsuranceApi\bin\Debug\netcoreapp1.1\FisherInsuranceApi.runtimeconfig.dev.json
+C:\Users\WM100002\Documents\Visual Studio 2017\Projects\FisherInsuranceApiVS2017\src\FisherInsuranceApi\bin\Debug\netcoreapp1.1\FisherInsuranceApi.dll
+C:\Users\WM100002\Documents\Visual Studio 2017\Projects\FisherInsuranceApiVS2017\src\FisherInsuranceApi\bin\Debug\netcoreapp1.1\FisherInsuranceApi.pdb
+C:\Users\WM100002\Documents\Visual Studio 2017\Projects\FisherInsuranceApiVS2017\src\FisherInsuranceApi\obj\Debug\netcoreapp1.1\FisherInsuranceApi.csprojResolveAssemblyReference.cache
+C:\Users\WM100002\Documents\Visual Studio 2017\Projects\FisherInsuranceApiVS2017\src\FisherInsuranceApi\obj\Debug\netcoreapp1.1\FisherInsuranceApi.AssemblyInfo.cs
+C:\Users\WM100002\Documents\Visual Studio 2017\Projects\FisherInsuranceApiVS2017\src\FisherInsuranceApi\obj\Debug\netcoreapp1.1\FisherInsuranceApi.dll
+C:\Users\WM100002\Documents\Visual Studio 2017\Projects\FisherInsuranceApiVS2017\src\FisherInsuranceApi\obj\Debug\netcoreapp1.1\FisherInsuranceApi.pdb

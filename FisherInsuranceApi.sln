@@ -1,16 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.9
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{EB2DDE7E-BBED-44C9-9DA7-120056783FB0}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{679F6D00-408F-4E80-9EA7-321CA87B5C8F}"
-	ProjectSection(SolutionItems) = preProject
-		global.json = global.json
-	EndProjectSection
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "FisherInsuranceApi", "src\FisherInsuranceApi\FisherInsuranceApi.xproj", "{170B8AD7-BBA6-4DD5-AC5C-FBC875ED1A75}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FisherInsuranceApi", "src\FisherInsuranceApi\FisherInsuranceApi.csproj", "{170B8AD7-BBA6-4DD5-AC5C-FBC875ED1A75}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
