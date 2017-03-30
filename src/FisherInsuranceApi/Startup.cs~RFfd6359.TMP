@@ -89,13 +89,6 @@ namespace FisherInsuranceApi
             //app.UseCookieAuthentication();
 
             app.UseMvc();
-            try
-            {
-                dbSeeder.SeedAsync().Wait();
-            } catch (AggregateException e)
-            {
-                throw new Exception(e.ToString());
-            }
 
         }
     }

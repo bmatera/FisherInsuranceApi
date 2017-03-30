@@ -10591,10 +10591,10 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\WM100002\\Documents\\Visual Studio 2017\\Projects\\FisherInsuranceApiVS2017\\src\\FisherInsuranceApi\\FisherInsuranceApi.csproj",
+      "projectUniqueName": "C:\\Users\\WM100002\\Documents\\Visual Studio 2017\\Projects\\FisherInsuranceApi\\src\\FisherInsuranceApi\\FisherInsuranceApi.csproj",
       "projectName": "FisherInsuranceApi",
-      "projectPath": "C:\\Users\\WM100002\\Documents\\Visual Studio 2017\\Projects\\FisherInsuranceApiVS2017\\src\\FisherInsuranceApi\\FisherInsuranceApi.csproj",
-      "outputPath": "C:\\Users\\WM100002\\Documents\\Visual Studio 2017\\Projects\\FisherInsuranceApiVS2017\\src\\FisherInsuranceApi\\obj\\",
+      "projectPath": "C:\\Users\\WM100002\\Documents\\Visual Studio 2017\\Projects\\FisherInsuranceApi\\src\\FisherInsuranceApi\\FisherInsuranceApi.csproj",
+      "outputPath": "C:\\Users\\WM100002\\Documents\\Visual Studio 2017\\Projects\\FisherInsuranceApi\\src\\FisherInsuranceApi\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.1"
